@@ -11,13 +11,17 @@ By Jiechuan Jiang and Zongqing Lu
 
 ### Introduction
 
-Fairness is essential for human society, contributing to stability and productivity. Similarly, fairness is also the key for many multi-agent systems. Taking fairness into multi-agent learning could help multi-agent systems become both efficient and stable. However, learning efficiency and fairness simultaneously is a complex, multi-objective, joint-policy optimization. **F**air-**E**fficient **N**etwork (**FEN**) is proposed to address these difficulties. FEN stands for **「分」** in chinese, meaning sharing. 
+Fairness is essential for human society, contributing to stability and productivity. Similarly, fairness is also the key for many multi-agent systems. Taking fairness into multi-agent learning could help multi-agent systems become both efficient and stable. However, learning efficiency and fairness simultaneously is a complex, multi-objective, joint-policy optimization. **F**air-**E**fficient **N**etwork (**FEN**) is proposed to address these difficulties. FEN also stands for **「分」** in chinese, means "share." 
 
 <img src="FEN.png" alt="FEN" width="400">
 
-FEN is a novel hierarchical reinforcement learning model to learn both fairness and efficiency driven by *fair-efficient* reward. FEN consists of one controller and several sub-policies,  where the controller learns to optimize the fair-efficient reward, one sub-policy learns to optimize the environmental reward, and other sub-policies learn to provide diverse fairness behaviors guided by the derived information-theoretic reward. FEN can learn and execute in a fully decentralized way, coordinated by average consensus. It is empirically demonstrated that FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios.
+FEN is a novel hierarchical reinforcement learning model to learn both fairness and efficiency driven by *fair-efficient* reward. FEN consists of one controller and several sub-policies,  where the controller learns to optimize the fair-efficient reward, one sub-policy learns to optimize the environmental reward, and other sub-policies learn to provide diverse fairness behaviors guided by the derived information-theoretic reward. FEN can learn and execute in a fully decentralized way, coordinated by average consensus. 
 
-The code is the implementations of FEN in the three scenarios, i.e., job scheduling, the Matthew effect and manufacturing pant, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
+The hierarchy helps converge to much higher reward and greatly accelerate the traning. The information-theoretic reward makes sub-policies learn meaningful behaviors. 
+
+<img src="FEN-w:o.png" alt="FEN-w/o" width="200"><img src="FEN-w:o:g.png" alt="FEN-w/o/g" width="200">
+
+FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios. The code is the implementations of FEN in the three scenarios, i.e., job scheduling, the Matthew effect and manufacturing pant, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
 
 ### Applications
 
