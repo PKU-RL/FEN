@@ -15,9 +15,7 @@ Fairness is essential for human society, contributing to stability and productiv
 
 <img src="FEN.png" alt="FEN" width="350">
 
-FEN is a novel hierarchical reinforcement learning model to learn both fairness and efficiency driven by *fair-efficient* reward. FEN consists of one controller and several sub-policies,  where the controller learns to optimize the fair-efficient reward, one sub-policy learns to optimize the environmental reward, and other sub-policies learn to provide diverse fairness behaviors guided by the derived information-theoretic reward. FEN can learn and execute in a fully decentralized way, coordinated by average consensus. 
-
-The hierarchy helps converge to much higher reward and greatly accelerate the traning. The information-theoretic reward makes sub-policies learn meaningful behaviors. 
+FEN is a novel hierarchical reinforcement learning model to learn both fairness and efficiency driven by *fair-efficient* reward. FEN consists of one controller and several sub-policies,  where the controller learns to optimize the fair-efficient reward, one sub-policy learns to optimize the environmental reward, and other sub-policies learn to provide diverse fairness behaviors guided by the derived information-theoretic reward. FEN can learn and execute in a fully decentralized way, coordinated by average consensus. The hierarchy helps converge to much higher reward and greatly accelerate the traning. 
 
 <img src="FEN-wo.png" alt="FEN-w/o" height="250">        <img src="FEN-wog.png" alt="FEN-w/o/g" height="250">
 
@@ -36,7 +34,7 @@ If you are using the code, please cite our paper.
 
 	@inproceedings{jiang2019learning,
 		title={Learning Fairness in Multi-Agent Systems},
-		author={Jiang, Jiechuan and Lu, Zongqing},
+		author={Jiechuan Jiang and Zongqing Lu},
 		booktitle={NeurIPS},
 		year={2019}
 	}
