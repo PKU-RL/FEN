@@ -20,8 +20,6 @@ FEN is a novel hierarchical reinforcement learning model to learn both fairness 
 FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios. 
 The code is the implementations of FEN in the three scenarios, i.e., **job scheduling**, **the Matthew effect** and **manufacturing pant**, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
 
-<img src="scenarios.png" alt="scenarios" height="200">
-
 The following illustrates the different behaviors of *FEN agents* (left) and *Independent agents* (right) in job scheduling.
 
 <img src="FEN_JS.gif" alt="FEN_JS" height="200"> <img src="IA_JS.gif" alt="IA_JS" height="200" hspace="20">
