@@ -18,7 +18,7 @@ Fairness is essential for human society, contributing to stability and productiv
 FEN is a novel hierarchical reinforcement learning model to learn both fairness and efficiency driven by *fair-efficient* reward. FEN consists of one controller and several sub-policies,  where the controller learns to optimize the fair-efficient reward, one sub-policy learns to optimize the environmental reward, and other sub-policies learn to provide diverse fairness behaviors guided by the derived information-theoretic reward. FEN can learn and execute in a fully decentralized way, coordinated by average consensus.
 
 FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios. 
-The code is the implementations of FEN in the three scenarios, i.e., **job scheduling**, **the Matthew effect** and **manufacturing pant**, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
+The code is the implementations of FEN in the three scenarios, i.e., **job scheduling**, **the Matthew effect** and **manufacturing plant**, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
 
 The following illustrates the different behaviors of FEN agents (*left*) and Independent agents (*right*) in job scheduling.
 
