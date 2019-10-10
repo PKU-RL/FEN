@@ -19,7 +19,8 @@ FEN is a novel hierarchical reinforcement learning model to learn both fairness 
 
 <img src="FEN-wo.png" alt="FEN-w/o" height="250"> <img src="FEN-wog.png" alt="FEN-w/o/g" height="250" hspace="20">
 
-FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios. The code is the implementations of FEN in the three scenarios, i.e., job scheduling, the Matthew effect and manufacturing pant, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
+FEN easily learns both fairness and efficiency and significantly outperforms baselines in a variety of multi-agent scenarios. 
+The code is the implementations of FEN in the three scenarios, i.e., **job scheduling**, **the Matthew effect** and **manufacturing pant**, presented in the paper [Learning Fairness in Multi-Agent Systems](https://z0ngqing.github.io/publication/nips19/).
 
 ### Applications
 
