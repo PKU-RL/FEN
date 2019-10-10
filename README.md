@@ -11,7 +11,7 @@ By Jiechuan Jiang and Zongqing Lu
 
 ### Introduction
 
-Fairness is essential for human society, contributing to stability and productivity. Similarly, fairness is also the key for many multi-agent systems. Taking fairness into multi-agent learning could help multi-agent systems become both efficient and stable. However, learning efficiency and fairness simultaneously is a complex, multi-objective, joint-policy optimization. **F**air-**E**fficient **N**etwork (**FEN**) [分] is proposed to address these difficulties. 
+Fairness is essential for human society, contributing to stability and productivity. Similarly, fairness is also the key for many multi-agent systems. Taking fairness into multi-agent learning could help multi-agent systems become both efficient and stable. However, learning efficiency and fairness simultaneously is a complex, multi-objective, joint-policy optimization. **F**air-**E**fficient **N**etwork (**FEN**) is proposed to address these difficulties. 
 
 <img src="FEN.png" alt="FEN" width="400">
 
